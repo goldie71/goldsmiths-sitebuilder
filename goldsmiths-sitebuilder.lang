@@ -1,0 +1,97 @@
+[zh-cn]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "在自己 NAS 上建站：描述您想要的页面，本机 AI 写出完整单页网站；可上传或在本机生成图片；还能查询域名是否可用。站点与文件只保存在您的 NAS。生成图片与购买域名需另行配置，默认关闭。"
+release_note = "1.2.5：修复安装与停止问题（数据改存命名卷、以非 root 运行、可干净停止），随包提供前端 bundle，新增查看/导出/删除全部数据的入口与完整隐私说明，并更正商店描述使其与实际功能一致。"
+important = "需要至少 8GB 内存。首次建站时会下载一次 AI 模型。生成图片与域名购买为可选功能，需自行填写相应密钥。"
+
+[zh-hk]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "在自己 NAS 上建站：描述你想要的頁面，本機 AI 寫出完整單頁網站；可上載或在本機生成圖片；亦可查詢網域是否可用。網站與檔案只保存在你的 NAS。生成圖片與購買網域需另行設定，預設關閉。"
+release_note = "1.2.5：修正安裝與停止問題（資料改存命名卷、以非 root 運行、可乾淨停止），隨包提供前端 bundle，新增查看／匯出／刪除全部資料的入口及完整私隱說明，並更正商店描述使其與實際功能一致。"
+important = "需要至少 8GB 記憶體。首次建站時會下載一次 AI 模型。生成圖片與網域購買為可選功能，需自行填寫相關密鑰。"
+
+[en-us]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Builds a website on your own NAS: describe the page and a local AI writes it; add your own pictures, or generate them on the box; check whether a domain is free. Your sites and files stay on your NAS. Picture generation and buying a domain are optional and off until you configure them."
+release_note = "1.2.5 fixes install and stop behaviour: data in named volumes, no root, clean shutdown. Adds the front-end bundle, a way to see, export and delete everything the app holds, a full privacy notice, and a store description that matches what it actually does."
+important = "Needs at least 8GB RAM. The AI model downloads once, the first time you build. Picture generation and domain purchase are optional and need their own keys."
+
+[fr-fr]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Crée un site sur votre propre NAS : décrivez la page, une IA locale l'écrit ; ajoutez vos photos ou générez-en sur la machine ; vérifiez si un domaine est libre. Vos sites et fichiers restent sur votre NAS. La génération d'images et l'achat de domaine sont facultatifs et désactivés par défaut."
+release_note = "La 1.2.5 corrige l'installation et l'arrêt : données en volumes nommés, pas de root, arrêt propre. Ajoute le bundle d'interface, la consultation, l'export et la suppression de toutes les données, une notice de confidentialité complète et une description fidèle au fonctionnement réel."
+important = "Nécessite au moins 8 Go de RAM. Le modèle d'IA est téléchargé une fois, à la première création. Génération d'images et achat de domaine sont facultatifs et demandent leurs propres clés."
+
+[de-de]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Erstellt eine Website auf Ihrem eigenen NAS: Beschreiben Sie die Seite, eine lokale KI schreibt sie; eigene Bilder hinzufügen oder auf dem Gerät erzeugen; prüfen, ob eine Domain frei ist. Ihre Seiten und Dateien bleiben auf dem NAS. Bilderzeugung und Domainkauf sind optional und standardmäßig aus."
+release_note = "1.2.5 behebt Installation und Beenden: Daten in benannten Volumes, kein root, sauberes Stoppen. Ergänzt das Frontend-Bundle, Ansehen, Exportieren und Löschen aller Daten, eine vollständige Datenschutzerklärung und eine Beschreibung, die zur tatsächlichen Funktion passt."
+important = "Benötigt mindestens 8 GB RAM. Das KI-Modell wird einmalig beim ersten Erstellen geladen. Bilderzeugung und Domainkauf sind optional und brauchen eigene Schlüssel."
+
+[it-it]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Crea un sito sul tuo NAS: descrivi la pagina e un'IA locale la scrive; aggiungi le tue foto o generane sul dispositivo; controlla se un dominio è libero. Siti e file restano sul tuo NAS. Generazione immagini e acquisto dominio sono opzionali e disattivati finché non li configuri."
+release_note = "La 1.2.5 corregge installazione e arresto: dati in volumi con nome, nessun root, arresto pulito. Aggiunge il bundle dell'interfaccia, la possibilità di vedere, esportare ed eliminare tutti i dati, un'informativa completa e una descrizione fedele al funzionamento reale."
+important = "Richiede almeno 8 GB di RAM. Il modello IA si scarica una volta, alla prima creazione. Generazione immagini e acquisto dominio sono opzionali e richiedono chiavi proprie."
+
+[es-es]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Crea un sitio en tu propio NAS: describe la página y una IA local la escribe; añade tus fotos o genéralas en el equipo; comprueba si un dominio está libre. Tus sitios y archivos se quedan en tu NAS. La generación de imágenes y la compra de dominios son opcionales y están desactivadas por defecto."
+release_note = "La 1.2.5 corrige la instalación y la parada: datos en volúmenes con nombre, sin root, cierre limpio. Añade el paquete de interfaz, ver, exportar y borrar todos los datos, un aviso de privacidad completo y una descripción acorde con lo que hace."
+important = "Requiere al menos 8 GB de RAM. El modelo de IA se descarga una vez, al crear el primer sitio. Generación de imágenes y compra de dominios son opcionales y necesitan sus propias claves."
+
+[hu-hu]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Weboldalt készít a saját NAS-odon: írd le az oldalt, és egy helyi MI megírja; saját képeket tölthetsz fel vagy a gépen generálhatsz; megnézheted, szabad-e egy domain. Az oldalak és fájlok a NAS-on maradnak. A képgenerálás és a domainvásárlás opcionális, alapból ki van kapcsolva."
+release_note = "Az 1.2.5 javítja a telepítést és a leállítást: adatok elnevezett kötetekben, nincs root, tiszta leállás. Hozzáadja a felületi csomagot, az összes adat megtekintését, exportálását és törlését, teljes adatvédelmi tájékoztatót és a valós működéshez illő leírást."
+important = "Legalább 8 GB RAM szükséges. Az MI-modell egyszer töltődik le, az első oldalnál. A képgenerálás és a domainvásárlás opcionális, saját kulcsokat igényel."
+
+[ja-jp]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "自分の NAS でウェブサイトを作成：作りたいページを説明するとローカル AI が執筆します。写真の追加や端末上での画像生成、ドメインの空き確認も可能。サイトとファイルは NAS 内に留まります。画像生成とドメイン購入は任意機能で、設定するまで無効です。"
+release_note = "1.2.5 はインストールと停止の動作を修正（名前付きボリューム、root 不使用、クリーンな停止）。フロントエンドのバンドル、全データの閲覧・書き出し・削除、完全なプライバシー通知を追加し、説明を実際の機能に合わせました。"
+important = "8GB 以上の RAM が必要です。AI モデルは最初の作成時に一度だけダウンロードされます。画像生成とドメイン購入は任意で、それぞれキーが必要です。"
+
+[ko-kr]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "내 NAS에서 웹사이트를 만듭니다. 원하는 페이지를 설명하면 로컬 AI가 작성하고, 사진을 추가하거나 기기에서 이미지를 생성할 수 있으며, 도메인 사용 가능 여부도 확인합니다. 사이트와 파일은 NAS에 남습니다. 이미지 생성과 도메인 구매는 선택 기능이며 설정 전에는 꺼져 있습니다."
+release_note = "1.2.5는 설치와 종료 동작을 수정했습니다(이름 있는 볼륨, root 미사용, 깔끔한 종료). 프런트엔드 번들, 모든 데이터 보기·내보내기·삭제, 전체 개인정보 안내를 추가하고 설명을 실제 기능에 맞췄습니다."
+important = "RAM 8GB 이상 필요. AI 모델은 첫 사이트 생성 시 한 번만 내려받습니다. 이미지 생성과 도메인 구매는 선택이며 각각 키가 필요합니다."
+
+[pl-pl]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Tworzy stronę na Twoim NAS: opisz stronę, a lokalna AI ją napisze; dodaj własne zdjęcia lub wygeneruj je na urządzeniu; sprawdź, czy domena jest wolna. Strony i pliki zostają na NAS. Generowanie obrazów i zakup domeny są opcjonalne i domyślnie wyłączone."
+release_note = "1.2.5 naprawia instalację i zatrzymywanie: dane w nazwanych woluminach, bez root, czyste zatrzymanie. Dodaje pakiet interfejsu, podgląd, eksport i usuwanie wszystkich danych, pełną informację o prywatności i opis zgodny z działaniem."
+important = "Wymaga co najmniej 8 GB RAM. Model AI pobiera się raz, przy pierwszej stronie. Generowanie obrazów i zakup domeny są opcjonalne i wymagają własnych kluczy."
+
+[ru-ru]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Создаёт сайт на вашем NAS: опишите страницу, и локальный ИИ её напишет; добавьте свои фото или сгенерируйте их на устройстве; проверьте, свободен ли домен. Сайты и файлы остаются на NAS. Генерация изображений и покупка домена необязательны и по умолчанию выключены."
+release_note = "1.2.5 исправляет установку и остановку: данные в именованных томах, без root, корректная остановка. Добавлены пакет интерфейса, просмотр, экспорт и удаление всех данных, полное уведомление о конфиденциальности и описание, соответствующее работе."
+important = "Требуется не менее 8 ГБ ОЗУ. Модель ИИ загружается один раз при создании первого сайта. Генерация изображений и покупка домена необязательны и требуют своих ключей."
+
+[tr-tr]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Kendi NAS'ınızda site oluşturur: sayfayı anlatın, yerel yapay zekâ yazsın; kendi fotoğraflarınızı ekleyin veya cihazda görsel üretin; bir alan adının boşta olup olmadığını kontrol edin. Siteler ve dosyalar NAS'ınızda kalır. Görsel üretimi ve alan adı satın alma isteğe bağlıdır, yapılandırılana kadar kapalıdır."
+release_note = "1.2.5 kurulum ve durdurmayı düzeltir: adlandırılmış birimler, root yok, temiz kapanış. Arayüz paketi, tüm verileri görme, dışa aktarma ve silme, tam gizlilik bildirimi ve gerçek işleve uygun açıklama eklendi."
+important = "En az 8 GB RAM gerekir. Yapay zekâ modeli ilk sitede bir kez indirilir. Görsel üretimi ve alan adı satın alma isteğe bağlıdır ve kendi anahtarlarını gerektirir."
+
+[pt-pt]
+name = "Site & AI Builder"
+auth = "G-Lock Ltd"
+descript = "Cria um site no seu NAS: descreva a página e uma IA local escreve-a; acrescente as suas fotos ou gere-as no equipamento; verifique se um domínio está livre. Os sites e ficheiros ficam no seu NAS. A geração de imagens e a compra de domínios são opcionais e estão desligadas por omissão."
+release_note = "A 1.2.5 corrige a instalação e a paragem: dados em volumes com nome, sem root, paragem limpa. Acrescenta o pacote de interface, ver, exportar e apagar todos os dados, um aviso de privacidade completo e uma descrição fiel ao que faz."
+important = "Requer pelo menos 8 GB de RAM. O modelo de IA é transferido uma vez, no primeiro site. Geração de imagens e compra de domínios são opcionais e exigem chaves próprias."

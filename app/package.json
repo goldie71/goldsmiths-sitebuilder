@@ -1,0 +1,16 @@
+{
+  "name": "goldsmiths-sitebuilder",
+  "version": "1.2.5",
+  "private": true,
+  "description": "Goldsmiths Site Builder for TerraMaster TOS 7 - describe a site, it builds on your own NAS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}

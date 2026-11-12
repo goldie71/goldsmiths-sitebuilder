@@ -1,0 +1,67 @@
+# Goldsmiths Site & AI Builder 1.2.5 - remediated per TerraMaster review
+# D16  named volumes only, no './' relative bind mounts
+# V1   both services run as 1000:1000, image USER 1000, no root and no privilege drop
+# F3   init true, stop_grace_period, SIGTERM handled in the entrypoint and the server
+services:
+  goldsmiths-sitebuilder:
+    image: goldie71/goldsmiths-sitebuilder:1.2.5
+    container_name: goldsmiths-sitebuilder
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 25s
+    user: "1000:1000"
+    ports:
+      - "8090:8090"
+    environment:
+      - TZ=Europe/London
+      - PORT=8090
+      - OLLAMA_URL=http://ollama:11434
+      - DATA_DIR=/data
+      - MODEL=${SITE_MODEL:-qwen2.5-coder:1.5b}
+      # optional, all off unless you set them:
+      # - IMAGE_API_URL=      OpenAI-compatible images endpoint (local or hosted)
+      # - STRIPE_SECRET_KEY=  only needed to sell domains
+      # - GODADDY_KEY / GODADDY_SECRET   only needed for GoDaddy price quotes
+    volumes:
+      - sitebuilder-data:/data
+    depends_on:
+      - ollama
+    networks:
+      - goldsmiths
+
+  ollama:
+    image: ollama/ollama:0.40.15
+    container_name: goldsmiths-sitebuilder-ollama
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 25s
+    user: "1000:1000"
+    environment:
+      - TZ=Europe/London
+      - OLLAMA_HOST=0.0.0.0:11434
+      - OLLAMA_KEEP_ALIVE=5m
+      - HOME=/data/ollama
+      - OLLAMA_MODELS=/data/ollama/models
+    volumes:
+      - ollama-data:/data/ollama
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    networks:
+      - goldsmiths
+
+volumes:
+  sitebuilder-data:
+  ollama-data:
+
+networks:
+  goldsmiths:
+    driver: bridge
+
+x-app-meta:
+  web:
+    port: 8090
+    protocol: http
